@@ -97,9 +97,12 @@ https://github.com/turlvo/KuKuTVNoti/blob/master/devicetypes/turlvo/kukutvnoti.s
 # 4. 'KuKuTVNoti' working 
 
 4-1) Using Thing tile buttons
-<iframe width="560" height="315" src="https://youtu.be/CHAo5ffVQOw" frameborder="0" allowfullscreen></iframe>
+
+[![Watch the video](http://img.youtube.com/vi/CHAo5ffVQOw/0.jpg)](https://youtu.be/CHAo5ffVQOw)
+
 
 4-2) Using CoRE(or any automation)
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=IzeLuLSzFEA&feature=youtu.be" frameborder="0" allowfullscreen></iframe>
+
+[![Watch the video](http://img.youtube.com/vi/IzeLuLSzFEA/0.jpg)](https://youtu.be/IzeLuLSzFEA)
 
 
