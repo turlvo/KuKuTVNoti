@@ -1,5 +1,9 @@
 # 'KuKuTVNoti' Install Guide
 
+KuKuTVNoti' is a DTH to notify some message to TV.(Now just only LG WebOS TV).
+
+This is baed on '[LGTV2](https://github.com/hobbyquaker/lgtv2)' API.
+
 # 0. Preparing
 
 To connect to LG WebOS TV, need to enable 'LG CONNECT APPS' option.
