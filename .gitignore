@@ -1,0 +1,9 @@
+*~
+.DS_Store
+lgtv-*
+.idea
+.vimrc
+.bashrc
+list.txt
+api.txt
+node_modules

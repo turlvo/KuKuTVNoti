@@ -1,0 +1,18 @@
+{
+  "name": "kukulgtv-api",
+  "version": "1.0.0",
+  "description": "server for controling LG TV",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "lgtv": "^0.2.4",
+    "lgtv2": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KuKu",
+  "license": "ISC"
+}
