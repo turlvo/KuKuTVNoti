@@ -19,18 +19,24 @@ http://www.lg.com/uk/support/product-help/CT00008334-1437131798537-others
 1-1) 'KuKuTVNoti' Docker Image download
 
 ```
+[X86 Platform]
 # docker search kukutvnoti
 # docker pull turlvo/kukutvnoti
+```
+
+```
+[ARM Platform(Raspberry Pie)]
+# docker search turlvo/kukutvnoti-rasp
+# docker pull turlvo/kukutvnoti-rasp
 ```
 
 1-2) Execute 'KuKuTVNoti' container 
 
 ```
-# docker run -ti --name kukutvnoti -v /home/kukutvnoti:/keys -p 8383:8383 turlvo/kukutvnoti
+# docker run --name kukutvnoti --net=host turlvo/kukutvnoti
 ```
-<Change '/home/kukutvnoti' to your own directory that used to store TV's key>
-After run container, push Ctrl + P + Q to quit.
-If the container is stopped, just start container to use 'docker start'
+(You can use -d option to background running)
+
 
 1-3) Enable auto run 'KuKuTVNoti' when rebooted
 
