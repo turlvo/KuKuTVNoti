@@ -20,13 +20,11 @@ http://www.lg.com/uk/support/product-help/CT00008334-1437131798537-others
 
 ```
 [X86 Platform]
-# docker search kukutvnoti
 # docker pull turlvo/kukutvnoti
 ```
 
 ```
 [ARM Platform(Raspberry Pie)]
-# docker search turlvo/kukutvnoti-rasp
 # docker pull turlvo/kukutvnoti-rasp
 ```
 
