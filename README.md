@@ -21,9 +21,9 @@ http://www.lg.com/uk/support/product-help/CT00008334-1437131798537-others
 ```
 [X86 Platform]
 # docker pull turlvo/kukutvnoti
-```
 
-```
+or
+
 [ARM Platform(Raspberry Pie)]
 # docker pull turlvo/kukutvnoti-rasp
 ```
@@ -32,6 +32,10 @@ http://www.lg.com/uk/support/product-help/CT00008334-1437131798537-others
 
 ```
 # docker run --name kukutvnoti --net=host turlvo/kukutvnoti
+
+or
+
+# docker run --name kukutvnoti --net=host turlvo/kukutvnoti-rasp
 ```
 (You can use -d option to background running)
 
