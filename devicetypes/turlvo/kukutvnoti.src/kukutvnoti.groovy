@@ -166,12 +166,7 @@ def setNetworkAddress() {
 
 // Parse events from the Bridge
 def parse(String description) {
-    //setNetworkAddress()
 
-    log.debug "Parsing '${description}'"
-    def msg = parseLanMessage(description)
-
-    return createEvent(name: "message", value: new JsonOutput().toJson(msg.data))
 }
 
 // Send message to the Bridge
@@ -206,6 +201,7 @@ def sendNoti(msg) {
         body: body
     )
     hubAction
+    
 }
 /*
 private sendNoti(msg){
