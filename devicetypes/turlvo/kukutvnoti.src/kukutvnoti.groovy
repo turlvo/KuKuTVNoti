@@ -189,7 +189,7 @@ def sendNoti(msg) {
     headers.put("HOST", "$serverIp:$serverPort")
     headers.put("Content-Type", "application/json")
     log.debug "headers is: $headers"
-    
+    log.debug "${device.hub.getDataValue("localIP")} + ":" + ${device.hub.getDataValue("localSrvPortTCP")}"
     def body = [:]
     body.put("callback", device.hub.getDataValue("localIP") + ":" + device.hub.getDataValue("localSrvPortTCP"))
     body.put("msg", msg)
