@@ -18,7 +18,7 @@ import groovy.json.JsonOutput
 
 metadata {
     definition (name: "KuKuTVNoti", namespace: "turlvo", author: "KuKu") {
-        capability "Media Controller"
+        capability "Notification"
 
         command "sendNoti", ["string"]
         command "noti1"
@@ -34,7 +34,7 @@ metadata {
     preferences {
         input name: "serverIp", type: "string", title: "KuKuTVNoti server IP address:", description: "Example) 192.168.1.137", required: true, displayDuringSetup: true
         input name: "serverPort", type: "string", title: "KuKuTVNoti server Port:", description: "Example) 8383", required: true, displayDuringSetup: true
-        input name: "serverMac", type: "string", title: "KuKuTVNoti server MAC:", description: "Example) 12:34:56:78:90", required: true, displayDuringSetup: true
+        //input name: "serverMac", type: "string", title: "KuKuTVNoti server MAC:", description: "Example) 12:34:56:78:90", required: true, displayDuringSetup: true
         input name: "tvIp", type: "string", title: "TV IP address:", description: "Example) 192.168.1.111", required: true, displayDuringSetup: true
         
         input name: "noti1msg", type: "string", title: "Noti1 message:", description: "",displayDuringSetup: true
@@ -166,7 +166,7 @@ def setNetworkAddress() {
 
 // Parse events from the Bridge
 def parse(String description) {
-    setNetworkAddress()
+    //setNetworkAddress()
 
     log.debug "Parsing '${description}'"
     def msg = parseLanMessage(description)
